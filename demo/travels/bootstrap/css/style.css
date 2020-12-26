@@ -1,0 +1,33 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(50deg,lightcyan,lightslategray,black);
+}
+.bg-teal{
+
+    background-color:#056962 !important;
+}
+.carousel-caption{
+    bottom: 200px;
+
+}
+.bg{
+    background-color:#056962 !important;
+}
+
+.social{
+   color:white !important;
+}
+.btn-color {
+    background-color: #236666 !important;
+    color: white;
+}
+.one{
+    color: #056962 !important;;
+}
+.hover-effect:hover{
+    border-radius: 20%;
+}
+

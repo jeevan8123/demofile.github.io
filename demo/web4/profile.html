@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="boostrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css">
+    <link rel="stylesheet" href="boostrap/css/mdb.css">
+    <link rel="stylesheet" href="boostrap/css/style.css">
+    <title>Profile</title>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <a  href="main.html" class="navbar-brand text-success">
+            <i class="fa fa-cloud text-white"></i> My Company</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#one">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="one">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">
+                        <i  class="fa fa-chart-bar text-muted"></i> Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="task.html">
+                        <i  class="fa fa-list text-muted"></i> Task
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categari.html">
+                        <i  class="fa fa-sitemap text-muted"></i> Categaries
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="employee.html">
+                        <i  class="fa fa-users text-muted"></i> Employee
+                    </a>
+                </li>
+
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown">
+                        <i  class="fa fa-sign-in-alt text-muted"></i> jeeva</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="profile.html">
+                            <i class="fa fa-user-circle"> profile</i>
+
+                        </a>
+                        <a class="dropdown-item" href="settings.html">
+                            <i class="fa fa-cogs"> settings</i>
+
+                        </a>
+                    </div>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        <i  class="fa fa-sign-out-alt text-muted"></i> Logout
+                    </a>
+                </li>
+            </ul>
+
+
+
+        </div>
+
+
+    </div>
+
+
+</nav>
+<section class="p-3 bg">
+    <div class="container">
+        <div class="row">
+            <div class="col animated flipInY">
+                <h1 class="text-white font-weight-bold ">
+                     <i class="fa fa-user-circle "> </i> Profile
+                </h1>
+
+            </div>
+        </div>
+    </div>
+</section >
+<!------section--->
+<section class="p-3 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+                <a  href="main.html" class="btn bgt text-white w-100"> <i class="fa fa-arrow-alt-circle-left"></i> DashBoard</a>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3">
+                <a  href="main.html" class="btn bgc text-white w-100" data-toggle="modal" data-target="#update"> <i class="fa fa-lock"></i> Update Password</a>
+            </div>
+            <div class="col-md-3">
+                <a  href="main.html" class="btn bge text-white w-100"> <i class="fa fa-times-circle"></i> Delete Account</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+<!---modals--->
+<div class="modal " id="update">
+    <div class="modal-dialog modal-lg animated jello">
+        <div class="modal-content">
+            <div class="modal-header bg2 text-white ">
+                <h4>Update Password</h4>
+                <button class="close" data-dismiss="modal"><i class="fa fa-times-circle"></i> </button>
+            </div>
+            <div class="modal-body bg-light">
+                <form>
+                    <div class="form-group">
+                    <input type="password" class="form-control" placeholder="old password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="new password">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="conform password">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-block btn-cyan" value="update password">
+                        <button class="btn btn-outline-dark" data-dismiss="modal">close</button>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------card---->
+<section class="p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 mt-3">
+                <div class="card ">
+                    <div class="card-header bg-primary">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="card-body bg-light">
+                        <div class="card">
+                            <div class="card-body">
+                            <h2>JEEVAN</h2>
+                        </div>
+                        </div>
+                        <div class="card mt-3">
+                            <div class="card-body">
+                                <P CLASS="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam commodi dolores earum harum illo, labore laudantium nihil non voluptatum. A nemo nihil placeat rem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quaerat quos repellat sunt vitae voluptatum?</P>
+
+                            </div>
+                        </div>
+                        <div class="card mt-3">
+                            <div class="card-body">
+                                <P CLASS="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam commodi dolores earum harum illo, labore laudantium nihil non voluptatum. A nemo nihil placeat rem.</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bgt ">
+                        <h3>Thank You</h3>
+                </div>
+
+
+            </div>
+            </div>
+        <div class="col-md-3 mt-3 text-center text-white ">
+            <div class=" card">
+                <div class="card-header bge">
+                    <h5>JEEVAN</h5>
+                </div>
+                <div class="card-body">
+                    <img src="imgs/14.jpg" class="img-fluid img-thumbnail pimage">
+
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-cyan btn-block mt-3"><i class="fa fa-pen"></i> Edit Profile</button>
+                    <button class="btn btn-cyan btn-block mt-3"><i class="fa fa-trash"></i> Delete Account</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-center text-white ">
+    <div class="container ">
+        <div class="row ">
+            <div class="col mt-3">
+                <h2>Copy Right©2020, MY Company.com</h2>
+                <h5>All Right are Reserved</h5>
+                <h6 class="lead">Maintained and devoloped by
+                    <a href="">jeeva</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="boostrap/js/jquery.js"></script>
+<script src="boostrap/js/popper.js"></script>
+<script src="boostrap/js/bootstrap.js"></script>
+<script src="boostrap/js/mdb.js"></script>
+</body>

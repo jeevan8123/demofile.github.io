@@ -1,0 +1,49 @@
+.dropdown-item:hover{
+    background: linear-gradient(50deg,white,red);
+
+}
+.bg{
+    background: linear-gradient(50deg,silver,green,maroon);
+}
+.btn-color{
+    width: 340px;
+    background: linear-gradient(50deg,#7b1fa2,#0c5460);
+ font-weight: bold;
+    color: silver;
+}
+.btn-color1{
+    width: 340px;
+    background: linear-gradient(50deg,#0c5460,#1de9b6);
+    font-weight: bold;
+    color: silver;
+}
+.btn-color2{
+    width: 350px;
+    background: linear-gradient(50deg,#1de9b6,#7b1fa2);
+    font-weight: bold;
+    color: silver;
+}
+
+.bgc{
+    background: linear-gradient(50deg,yellow,black);
+}
+.bgt{
+    background: linear-gradient(50deg,grey,deeppink);
+}
+.bge{
+    background:  linear-gradient(40deg,mediumvioletred,maroon);
+}
+.pimage{
+    box-shadow: 0 0 10px red;
+    border-radius: 20px;
+}
+.bg2{
+
+    background:  linear-gradient(40deg,#025519,#130ad8);
+}
+body{
+    background:  linear-gradient(5deg,#836088,#ef197e,#0ab177);
+}
+.class{
+ overflow-x: auto;
+}

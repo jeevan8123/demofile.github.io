@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(60deg,silver,black,deeppink);
+}
+
+
+.one {
+   background: white url("../../imgs/background_waves.jpg") no-repeat scroll center;
+   height: 100vh;
+   background-size: cover;
+}
+.overlay{
+   background-color: rgba(0,0,0,0.7);
+   height: 100%;
+}
+.search-box{
+   width: 500px;
+  height: 50px;
+  margin: auto;
+}
+.imageborder{
+    border-radius: 30%;
+}
+.persion{
+    border-radius: 50%;
+    width: 150px;
+}
+.two{
+    background: white url("../../imgs/background_waves.jpg") no-repeat scroll center;
+    height: 40vh;
+    background-size: cover;
+
+}
+.overlay1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.size{
+    width: 400px;
+    height: 50px;
+}
+.div a {
+    color: black;
+    font-weight: bold;
+}
+.width{
+width:30px;
+}
+

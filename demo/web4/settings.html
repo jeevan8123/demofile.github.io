@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="boostrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css">
+    <link rel="stylesheet" href="boostrap/css/mdb.css">
+    <link rel="stylesheet" href="boostrap/css/style.css">
+    <title>Profile</title>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <a  href="main.html" class="navbar-brand text-success">
+            <i class="fa fa-cloud text-white"></i> My Company</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#one">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="one">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">
+                        <i  class="fa fa-chart-bar text-muted"></i> Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="task.html">
+                        <i  class="fa fa-list text-muted"></i> Task
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categari.html">
+                        <i  class="fa fa-sitemap text-muted"></i> Categaries
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="employee.html">
+                        <i  class="fa fa-users text-muted"></i> Employee
+                    </a>
+                </li>
+
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown">
+                        <i  class="fa fa-sign-in-alt text-muted"></i> jeeva</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="profile.html">
+                            <i class="fa fa-user-circle"> profile</i>
+
+                        </a>
+                        <a class="dropdown-item" href="settings.html">
+                            <i class="fa fa-cogs"> settings</i>
+
+                        </a>
+                    </div>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        <i  class="fa fa-sign-out-alt text-muted"></i> Logout
+                    </a>
+                </li>
+            </ul>
+
+
+
+        </div>
+
+
+    </div>
+
+
+</nav>
+<section class="p-3 bg">
+    <div class="container">
+        <div class="row">
+            <div class="col animated jello">
+                <h1 class="text-white font-weight-bold ">
+                    <i class="fa fa-user-circle "> </i> Settings
+
+            </div>
+        </div>
+    </div>
+</section >
+<!------section--->
+<section class="p-3 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+                <a  href="main.html" class="btn bgt text-white w-100"> <i class="fa fa-arrow-alt-circle-left"></i> DashBoard</a>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3">
+                <a  href="main.html" class="btn bgc text-white w-100"> <i class="fa fa-check-circle"></i> Save Changes</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!------modals---->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col mt-5">
+                <div class="card">
+                    <div class="card-header bge text-white">
+                        <h3>Edit Settings</h3>
+                    </div>
+                    <div class="card-body bg-light">
+                        <form>
+                            <h4>Allo user registraion</h4>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">yes</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">No</label>
+                            </div>
+                            <h4>Home page formet </h4>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio3">Single page</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio4">Multi page</label>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-center text-white mt-3">
+    <div class="container ">
+        <div class="row ">
+            <div class="col mt-3">
+                <h2>Copy Right©2020, MY Company.com</h2>
+                <h5>All Right are Reserved</h5>
+                <h6 class="lead">Maintained and devoloped by
+                    <a href="">jeeva</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="boostrap/js/jquery.js"></script>
+<script src="boostrap/js/popper.js"></script>
+<script src="boostrap/js/bootstrap.js"></script>
+<script src="boostrap/js/mdb.js"></script>
+</body>
+</html>
